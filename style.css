@@ -1,0 +1,35 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.container {
+flex-direction: column;
+  display: flex;
+  gap: 1rem;
+}
+.row {
+  display: flex;
+}
+.col {
+  align-content: center;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  font-size: 60px;
+}
